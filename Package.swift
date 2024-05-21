@@ -9,7 +9,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "SoftphoneSwiftPackage-saas-debug",
-            targets: ["Softphone", "Softphone_Swift"]),
+            targets: ["Softphone", "Softphone_Swift", "SoftphoneIntents"]),
     ],
     targets: [
         .binaryTarget(
@@ -20,5 +20,9 @@ let package = Package(
             name: "Softphone_Swift",
             url: "https://dist.acrobits.net/saas-swift-package/debug/Softphone_Swift.xcframework-1.1.46.zip",
             checksum: "24af358c7ea27fdb3de062715013f028d8ae956de3205a704a23b744fb5c32d8"),
+        .binaryTarget(
+            name: "SoftphoneIntents",
+            url: "https://dist.acrobits.net/saas-swift-package/debug/LibsoftphoneIntents.xcframework-1.1.46.zip",
+            checksum: "e5037d120d1414efdd111b3c0d1c4142ea15f5fb9521254e5fa650ad271f01b2"),
     ]
 )
