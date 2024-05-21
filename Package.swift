@@ -23,6 +23,6 @@ let package = Package(
         .binaryTarget(
             name: "SoftphoneIntents",
             url: "https://dist.acrobits.net/saas-swift-package/debug/LibsoftphoneIntents.xcframework-1.1.47.zip",
-            checksum: ""),
+            checksum: "43eb84ea3985aa24bb7018f89cd45b80caa23c2e709cdd769f00f2137f8aa9db"),
     ]
 )
