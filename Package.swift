@@ -14,11 +14,11 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Softphone",
-            url: "https://dist.acrobits.net/saas-swift-package/debug/Softphone.xcframework-25.3.14.zip",
-            checksum: "55468656e7b886971b26212c576bcf0b88a816aab34b2f3f616ce6faa1b7b4ba"),
+            url: "https://dist.acrobits.net/saas-swift-package/debug/Softphone.xcframework-25.3.16.zip",
+            checksum: "72dfc6a6277d319bd4284419bafc58c586850919ba6f3d3adc9578f07e992ae2"),
         .binaryTarget(
             name: "Softphone_Swift",
-            url: "https://dist.acrobits.net/saas-swift-package/debug/Softphone_Swift.xcframework-25.3.14.zip",
-            checksum: "10cfe6280ad4f97767dc6792914507f4400095a0a28d57d83955a147b67bf72b"),
+            url: "https://dist.acrobits.net/saas-swift-package/debug/Softphone_Swift.xcframework-25.3.16.zip",
+            checksum: "00cd40a94aa602522b140e94d696617fbe2307b9422151220a984efe4f51b789"),
     ]
 )
